@@ -6,10 +6,15 @@ Este repositorio contiene la resolución de la prueba técnica para el rol de De
 ## 1. Pasos para ejecutar el proyecto
 Para ejecutar la aplicación de Django localmente, sigue estos pasos:
 
-1. **Clonar el repositorio** e ingresar a la carpeta del proyecto.
+1. **Clonar el repositorio e ingresar a la carpeta del proyecto.** 
+   `git clone https://github.com/jhojan980103/prueba-tecnica-cala-analytics.git`
+   `cd prueba-tecnica-cala-analytics`
 2. **Crear y activar un entorno virtual**:
    `python -m venv venv`
-   `.\venv\Scripts\activate  # Windows`
+   # Windows:
+   `.\venv\Scripts\activate`
+   # En Mac/Linux:
+   `source venv/bin/activate`
 3. **Instalar Django**: `pip install django`
 4. **Ejecutar el servidor**: `python manage.py runserver`
 5. **Abrir el navegador en**: `http://127.0.0.1:8000/`
