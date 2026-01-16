@@ -11,9 +11,9 @@ Para ejecutar la aplicación de Django localmente, sigue estos pasos:
    `cd prueba-tecnica-cala-analytics`
 2. **Crear y activar un entorno virtual**:
    `python -m venv venv`
-   # Windows:
+   > # Windows:
    `.\venv\Scripts\activate`
-   # En Mac/Linux:
+   > # En Mac/Linux:
    `source venv/bin/activate`
 3. **Instalar Django**: `pip install django`
 4. **Ejecutar el servidor**: `python manage.py runserver`
@@ -48,3 +48,4 @@ Para consumir datos de BigQuery en Django, el proceso ideal sería:
 
 **3. ¿Cómo aseguras calidad técnica cuando trabajas bajo presión de tiempo?**
 > "Me enfoco en tres pilares: primero, priorizar el 'core' de la funcionalidad para asegurar que el valor principal se entregue sin errores. Segundo, no negociar las pruebas unitarias básicas para la lógica crítica. Tercero, mantener el código limpio y comentado (siguiendo PEP8), ya que el ahorro de tiempo al escribir código 'sucio' se pierde rápidamente en el mantenimiento y la corrección de errores futuros."
+
